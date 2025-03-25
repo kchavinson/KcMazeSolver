@@ -5,6 +5,9 @@
  */
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Stack;
+import java.util.Queue;
 
 public class MazeSolver {
     private Maze maze;
@@ -27,9 +30,10 @@ public class MazeSolver {
      * @return An arraylist of MazeCells to visit in order
      */
     public ArrayList<MazeCell> getSolution() {
-        // TODO: Get the solution from the maze
-        // Should be from start to end cells
+
+        // get each parent and add to an arraylist then return it
         return null;
+
     }
 
     /**
@@ -40,6 +44,7 @@ public class MazeSolver {
         // TODO: Use DFS to solve the maze
         // Explore the cells in the order: NORTH, EAST, SOUTH, WEST
         return null;
+
     }
 
     /**
@@ -50,6 +55,7 @@ public class MazeSolver {
         // TODO: Use BFS to solve the maze
         // Explore the cells in the order: NORTH, EAST, SOUTH, WEST
         return null;
+
     }
 
     public static void main(String[] args) {
